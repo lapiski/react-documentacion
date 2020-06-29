@@ -1,0 +1,57 @@
+{
+    "datosFlexbox": [
+        {
+            "category": "justify-content:",
+            "description": "alinea elementos horizontalmente",
+            "properties": [
+                {
+                    "property": "flex-start:",
+                    "description": "alinea elementos al lado izquierdo del contenedor"
+                },
+                {
+                    "property": "flex-end:",
+                    "description": "alinea elementos al lado derecho del contenedor"
+                },
+                {
+                    "property": "center:",
+                    "description": "alinea en el centro"
+                },
+                {
+                    "property": "space-between:",
+                    "description": "elementos con la misma distancia"
+                },
+                {
+                    "property": "space-around:",
+                    "description": "elementos con la misma separación de ellos"
+                }
+            ]           
+        },
+        {
+            "category": "align-items:",
+            "description": "alinea elementos verticalmente",
+            "properties": [
+                {
+                    "property": "flex-start:",
+                    "description": "alinea en la parte superior del contenedor"
+                },
+                {
+                    "property": "flex-end:",
+                    "description": "alinea en la parte inferior"
+                },
+                {
+                    "property": "center:",
+                    "description": "alinea en el centro"
+                },
+                {
+                    "property": "baseline:",
+                    "description": "muestra elementos en la línea base del contenedor"
+                },
+                {
+                    "property": "stretch:",
+                    "description": "elementos se estiran para ajustarse al contenedor"
+                }
+            ]           
+        }
+    ]
+}
+

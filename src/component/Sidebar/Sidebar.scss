@@ -1,0 +1,43 @@
+.listado-categorias {
+    left: 0;
+    top: 0;
+    height: calc(100vh - 48px);
+    position: fixed;
+    padding-top: 15px;
+    padding-bottom: 0;
+    width: 220px;
+    overflow-y: scroll;
+    margin-top: 48px;
+    &::-webkit-scrollbar {
+   
+    }
+    h4 {
+        color: white;
+    }
+    > ul {
+        > li {
+            font-weight: 400;
+        }
+    }
+    
+    ul {
+        padding: 0px;
+        li {
+            list-style: none;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-transform: capitalize;
+            padding: 5px 15px;
+            cursor: pointer;
+            input {
+                margin-left: 5px;
+                float: right;
+            }
+        }
+        ul {
+            padding-left: 20px;
+        }
+    }
+}

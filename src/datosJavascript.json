@@ -1,0 +1,71 @@
+{
+    "datosJavascript": [
+        {
+            "category": "JS Arrays",
+            "properties": [
+                {
+                    "simpleTitle": "filter()",
+                    "title": "Filter()",
+                    "description": "Filtra el array con la condición que le indiquemos",
+                    "category": "javascript",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 32,33,40",
+                    "url": "https://www.w3schools.com/jsref/jsref_filter.asp"
+                },
+                {
+                    "simpleTitle": "map()",
+                    "title": "Map()",
+                    "description": "Descripción",
+                    "category": "javascript",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 32,33,40",
+                    "url": "https://www.w3schools.com/jsref/jsref_filter.asp"
+                },
+                {
+                    "simpleTitle": "push()",
+                    "title": "Push()",
+                    "description": "Descripción",
+                    "category": "javascript",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 32,33,40",
+                    "url": "https://www.w3schools.com/jsref/jsref_filter.asp"
+                }
+            ]  
+        },
+        {
+            "category": "JS Math",
+            "properties": [
+                {
+                    "simpleTitle": "floor()",
+                    "title": "Math.floor()",
+                    "description": "Redondea un número hacia abajo a su entero más cercano:",
+                    "category": "javascript",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 1",
+                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
+                },
+                {
+                    "simpleTitle": "round()",
+                    "title": "Math.round()",
+                    "description": "Redondea un número hacia arriba a su entero más cercano:",
+                    "category": "javascript",
+                    "example": "Math.round(2.5);",
+                    "back":"devuelve 3",
+                    "url": "https://www.w3schools.com/jsref/jsref_round.asp"
+                },
+                {
+                    "simpleTitle": "random()",
+                    "title": "Math.random()",
+                    "description": "Devuelve un número aleatorio entre 0 (inclusive) y 1 (exclusivo)",
+                    "category": "javascript",
+                    "example": "Math.random();",
+                    "example2": "Math.floor(Math.random() * 10);",
+                    "back":"devuelve un entero aleatorio de 0 a 9",
+                    "back2":"// returns a random integer from 0 to 9",
+                    "url": "https://www.w3schools.com/js/js_random.asp"
+                }
+            ]  
+        }
+    ]
+}
+
