@@ -1,45 +1,12 @@
 {
     "datosJavascript": [
         {
-            "category": "JS Arrays",
-            "properties": [
-                {
-                    "simpleTitle": "filter()",
-                    "title": "Filter()",
-                    "description": "Filtra el array con la condición que le indiquemos",
-                    "category": "javascript",
-                    "example": "Math.floor(1.6);",
-                    "back":"devuelve 32,33,40",
-                    "url": "https://www.w3schools.com/jsref/jsref_filter.asp"
-                },
-                {
-                    "simpleTitle": "map()",
-                    "title": "Map()",
-                    "description": "Descripción",
-                    "category": "javascript",
-                    "example": "Math.floor(1.6);",
-                    "back":"devuelve 32,33,40",
-                    "url": "https://www.w3schools.com/jsref/jsref_filter.asp"
-                },
-                {
-                    "simpleTitle": "push()",
-                    "title": "Push()",
-                    "description": "Descripción",
-                    "category": "javascript",
-                    "example": "Math.floor(1.6);",
-                    "back":"devuelve 32,33,40",
-                    "url": "https://www.w3schools.com/jsref/jsref_filter.asp"
-                }
-            ]  
-        },
-        {
-            "category": "JS Math",
+            "title": "Objeto Math",
             "properties": [
                 {
                     "simpleTitle": "floor()",
                     "title": "Math.floor()",
                     "description": "Redondea un número hacia abajo a su entero más cercano:",
-                    "category": "javascript",
                     "example": "Math.floor(1.6);",
                     "back":"devuelve 1",
                     "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
@@ -48,7 +15,6 @@
                     "simpleTitle": "round()",
                     "title": "Math.round()",
                     "description": "Redondea un número hacia arriba a su entero más cercano:",
-                    "category": "javascript",
                     "example": "Math.round(2.5);",
                     "back":"devuelve 3",
                     "url": "https://www.w3schools.com/jsref/jsref_round.asp"
@@ -57,12 +23,183 @@
                     "simpleTitle": "random()",
                     "title": "Math.random()",
                     "description": "Devuelve un número aleatorio entre 0 (inclusive) y 1 (exclusivo)",
-                    "category": "javascript",
                     "example": "Math.random();",
                     "example2": "Math.floor(Math.random() * 10);",
                     "back":"devuelve un entero aleatorio de 0 a 9",
                     "back2":"// returns a random integer from 0 to 9",
                     "url": "https://www.w3schools.com/js/js_random.asp"
+                }
+            ]  
+        },
+        {
+            "title": "Objeto Number",
+            "properties": [
+                {
+                    "simpleTitle": "parseFloat()",
+                    "title": "Number.parseFloat()",
+                    "description": "Devuelve un número de punto flotante",
+                    "example": "var c = parseFloat('10.33');",
+                    "back":"devuelve 10.33",
+                    "url": "https://www.w3schools.com/jsref/jsref_parsefloat.asp"
+                },
+                {
+                    "simpleTitle": "parseInt()",
+                    "title": "Number.parseInt()",
+                    "description": "Devuelve un número entero",
+                    "example": "var a = parseInt('10');",
+                    "back":"devuelve 10",
+                    "url": "https://www.w3schools.com/jsref/jsref_parseint.asp"
+                },
+                {
+                    "simpleTitle": "toString()",
+                    "title": "toString()",
+                    "description": "Convierte un número en un string",
+                    "example": "var n = num.toString();",
+                    "back":"...",
+                    "url": "https://www.w3schools.com/js/js_random.asp"
+                }
+            ]  
+        },
+        {
+            "title": "DOM",
+            "properties": [
+                {
+                    "simpleTitle": "getElementsByName()",
+                    "title": "getElementsByName()",
+                    "description": "Devuelve el elemento que tiene la CLASE con el valor especificado",
+                    "example": "document.getElementsByName('nombre_clase')",
+                    "url": "https://www.w3schools.com/jsref/met_doc_getelementsbyname.asp"
+                },
+                {
+                    "simpleTitle": "getElementById()",
+                    "title": "getElementById()",
+                    "description": "Devuelve el elemento que tiene el atributo ID con el valor especificado",
+                    "example": "document.getElementById('demo')",
+                    "url": "https://www.w3schools.com/jsref/met_document_getelementbyid.asp"
+                },
+                {
+                    "simpleTitle": "querySelector()",
+                    "title": "querySelector()",
+                    "description": "devuelve el primer elemento que coincide con un selector especificado",
+                    "example": "document.querySelector('.example');",
+                    "url": "https://www.w3schools.com/jsref/met_document_queryselector.asp"
+                },
+                {
+                    "simpleTitle": "getAttribute()",
+                    "title": "getAttribute()",
+                    "description": "Devuelve el valor del atributo con el nombre especificado de un elemento",
+                    "url": "https://www.w3schools.com/jsref/met_element_getattribute.asp"
+                },
+                {
+                    "simpleTitle": "hasAttribute()",
+                    "title": "hasAttribute()",
+                    "description": "Devuelve verdadero si existe el atributo especificado; de lo contrario, devuelve falso",
+                    "url": "https://www.w3schools.com/jsref/met_element_hasattribute.asp"
+                },
+                {
+                    "simpleTitle": "insertBefore()",
+                    "title": "insertBefore()",
+                    "description": "Inserta un nodo como hijo, justo antes de un hijo existente, que usted especifica",
+                    "url": "https://www.w3schools.com/jsref/met_node_insertbefore.asp"
+                },
+                {
+                    "simpleTitle": "nextSibling",
+                    "title": "nextSibling",
+                    "description": "Devuelve el nodo que sigue inmediatamente al nodo especificado, en el mismo nivel de árbol",
+                    "url": "https://www.w3schools.com/jsref/prop_node_nextsibling.asp"
+                }
+            ]  
+        },
+        {
+            "title": "Operadores",
+            "category": "Aritméticos",
+            "properties": [
+                {
+                    "simpleTitle": "Aritméticos",
+                    "title": "Aritméticos",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 1",
+                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
+                }
+            ]  
+        },
+        {
+            "category": "Comparación",
+            "properties": [
+                {
+                    "simpleTitle": "Aritméticos",
+                    "title": "Aritméticos",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 1",
+                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
+                }
+            ]  
+        },
+        {
+            "category": "Logicos",
+            "properties": [
+                {
+                    "simpleTitle": "Aritméticos",
+                    "title": "Aritméticos",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 1",
+                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
+                }
+            ]  
+        },
+        {
+            "category": "Asociativos",
+            "properties": [
+                {
+                    "simpleTitle": "Aritméticos",
+                    "title": "Aritméticos",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 1",
+                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
+                }
+            ]  
+        },
+        {
+            "title": "Tipos de datos",
+            "properties": [
+                {
+                    "simpleTitle": "String",
+                    "title": "String",
+                    "description": "var string = 'hola mundo';"
+                },
+                {
+                    "simpleTitle": "Number",
+                    "title": "Number",
+                    "category": "javascript",
+                    "description": "var number = 7;"
+                },
+                {
+                    "simpleTitle": "Decimal",
+                    "title": "Decimal",
+                    "description": "var decimal = 7.5;"
+                },
+                {
+                    "simpleTitle": "Bolean",
+                    "title": "Bolean",
+                    "description": "var bolean = true;",
+                    "back":"devuelve true | false"
+                },
+                {
+                    "simpleTitle": "Undefined",
+                    "title": "Undefined",
+                    "description": "Una variable a la que no se le ha asignado ningún valor tiene el valor undefined"
+                },
+                {
+                    "simpleTitle": "Symbol",
+                    "title": "Symbol",
+                    "description": "Un valor en memoria al que podemos acceder por un identificador",
+                    "example": ""
+                },
+                {
+                    "simpleTitle": "Object",
+                    "title": "Object",
+                    "description": "Un valor en memoria al que podemos acceder por un identificador",
+                    "example": ""
                 }
             ]  
         }

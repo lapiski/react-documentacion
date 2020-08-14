@@ -1,0 +1,41 @@
+{
+    "datosRecursos": [
+        {
+            "category": "Icomoon",
+            "property":"",
+            "description": "generar fuente de iconos",
+            "link": "https://icomoon.io/"         
+        },
+        {
+            "category": "Placeholder",
+            "property":"",
+            "description": "imágenes con tamaño y color que elijamos",
+            "link": "https://placeholder.com/"         
+        },
+        {
+            "category": "Fontsquirrel",
+            "property":"",
+            "description": "conversor de fuentes",
+            "link": "https://www.fontsquirrel.com/tools/webfont-generator"         
+        },
+        {
+            "category": "Otro",
+            "property":"",
+            "description": "breve descripción",
+            "link": "#"         
+        },
+        {
+            "category": "Otro",
+            "property":"",
+            "description": "breve descripción",
+            "link": "#"         
+        },
+        {
+            "category": "Otro",
+            "property":"",
+            "description": "breve descripción",
+            "link": "#"         
+        }
+    ]
+}
+

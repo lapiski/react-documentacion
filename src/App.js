@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Header from './component/Header/Header';
-import Sidebar from './component/Sidebar/Sidebar';
-import Javascript from './component/Javascript/Javascript';
-import { datosJavascript } from './datosJavascript.json';
-import { datosFlexbox } from './datosFlexbox.json';
-
+import Header from './component/Header/';
+import Javascript from './component/Javascript/';
+import Flexbox from './component/Flexbox/';
+import Recursos from './component/Recursos/';
+import ReactC from './component/ReactC/';
+import Ficha from './component/Ficha/';
 
 class App extends Component {
 
@@ -13,19 +14,39 @@ class App extends Component {
     super(props);
     
     this.state = {
-      datosJavascript,
+
     };
   }
-
 
   render() {
     return (
         <div className="my-app">
-          <Header/>
-          <Sidebar />
-          <div className="container-documentation">
-            <Javascript datosJavascript={this.state.datosJavascript} />
-          </div>
+          <BrowserRouter>
+            <Header/>
+            <Switch>
+              <Route
+                exact
+                path="/javascript"
+                render={() => <Javascript datosJavascript={this.state.datosJavascript} />}
+              />
+              <Route
+                path="/flexbox"
+                render={() => <Flexbox datosFlexbox={this.state.datosFlexbox} />} 
+              />
+              <Route
+                path="/recursos"
+                render={() => <Recursos datosRecursos={this.state.datosRecursos} />} 
+              />
+              <Route
+                path="/javascript/ficha"
+                component={Ficha}
+              />
+              <Route
+                path="/react"
+                render={() => <ReactC datosReact={this.state.datosReact} />} 
+              />
+            </Switch> 
+          </BrowserRouter>
         </div>
     );
   }

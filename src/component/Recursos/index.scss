@@ -1,0 +1,37 @@
+.container-flexbox {
+    .category {
+        border-bottom: 1px solid #6750d3;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        h5 {
+            color: #6750d3;
+            float: left;
+            margin-right: 5px;
+            text-transform: capitalize;
+        }
+        .wrapper-properties{
+            background: #f9f9f9;
+            padding: 20px;
+            .property {
+                margin-bottom: 10px;
+                .title {
+                    color: #6dbacd;
+                    display: inline-block;
+                    float: left;
+                    margin-right: 5px;
+                    font-weight: 400;
+                }
+                p {
+                    margin-bottom: 0px;
+                }
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+}

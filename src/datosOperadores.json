@@ -1,0 +1,96 @@
+{
+    "datosOperadores": [
+        {
+            "title": "Operadores",
+            "category": "Aritméticos",
+            "properties": [
+                {
+                    "name": "+",
+                    "description": "Sumar"
+                },
+                {
+                    "name": "-",
+                    "description": "Restar"
+                },
+                {
+                    "name": "*",
+                    "description": "Multiplicar"
+                },
+                {
+                    "name": "/",
+                    "description": "Dividir"
+                },
+                {
+                    "name": "++",
+                    "description": "Aumento"
+                },
+                {
+                    "name": "--",
+                    "description": "Incremento"
+                }
+            ]   
+        },
+        {
+            "category": "Comparación",
+            "properties": [
+                {
+                    "name": "==",
+                    "description": "Igual"
+                },
+                {
+                    "name": "===",
+                    "description": "Igual tipo y valor"
+                },
+                {
+                    "name": "!=",
+                    "description": "Diferente"
+                },
+                {
+                    "name": "!==",
+                    "description": "Diferente en tipo y valor"
+                },
+                {
+                    "name": ">",
+                    "description": "Mayor que"
+                },
+                {
+                    "name": "<",
+                    "description": "Menor que"
+                },
+                {
+                    "name": ">=",
+                    "description": "Mayor igual que"
+                },
+                {
+                    "name": "<=",
+                    "description": "Menor igual que"
+                }
+            ]  
+        },
+        {
+            "category": "Logicos",
+            "properties": [
+                {
+                    "simpleTitle": "Aritméticos",
+                    "title": "Aritméticos",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 1",
+                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
+                }
+            ]  
+        },
+        {
+            "category": "Asociativos",
+            "properties": [
+                {
+                    "simpleTitle": "Aritméticos",
+                    "title": "Aritméticos",
+                    "example": "Math.floor(1.6);",
+                    "back":"devuelve 1",
+                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
+                }
+            ]  
+        }
+    ]
+}
+

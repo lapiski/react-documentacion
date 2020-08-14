@@ -1,0 +1,77 @@
+{
+    "datosReact": [
+        {
+            "category": "Condicionales",
+            "properties": [
+                {
+                    "title": "if",
+                    "description": "Descripción corta",
+                    "example": "Ejemplo"
+                },
+                {
+    
+                    "title": "if | else",
+                    "description": "Descripción corta",
+                    "example": "Ejemplo"
+                }
+            ]  
+        },
+        {
+            "category": "Pasando datos",
+            "properties": [
+                {
+                    "title": "De padres a hijos",
+                    "description": "Descripción corta",
+                    "example": "<Javascript datosJavascript={this.state.datosJavascript} />"
+                },
+                {
+                    "title": "De hijos a padres",
+                    "description": "Descripción corta",
+                    "example": "Ejemplo"
+                }
+            ]  
+        },
+        {
+            "category": "Css",
+            "properties": [
+                {
+                    "title": "Sass",
+                    "description": "Descripción corta",
+                    "example": "npm install node-sass --save"
+                },
+                {
+                    "title": "Bootstrap",
+                    "description": "https://platzi.com/tutoriales/1199-react/3051-incluir-bootstrap-en-react/",
+                    "example": "npm install --save bootstrap"
+                }
+
+            ]  
+        },
+        {
+            "category": "Route",
+            "properties": [
+                {
+                    "title": "Enlaces",
+                    "description": "import { Route, Link, BrowserRouter as Router } from 'react-router-dom'",
+                    "example": "npm install --save react-router-dom"
+                }
+            ]  
+        },
+        {
+            "category": "Redux",
+            "properties": [
+                {
+                    "title": "De padres a hijos",
+                    "description": "import { connect } from 'react-redux'",
+                    "example": "npm install react-redux"
+                },
+                {
+                    "title": "De hijos a padres",
+                    "description": "Descripción corta",
+                    "example": "Ejemplo"
+                }
+            ]  
+        }
+    ]
+}
+

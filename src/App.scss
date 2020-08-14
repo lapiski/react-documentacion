@@ -24,7 +24,28 @@ body {
 }
 .icon {
     color:#6750d3;
-
+}
+.wrapper-table{
+    width: 46%;
+    float: left;
+    h5 {
+        border: 1px solid;
+        display: inline-block;
+        padding: 3px 10px;
+        border-radius: 4px;
+        color: white;
+        background: #6dbacd;
+        margin: 0px 0px 15px 0px !important;
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .item-table {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.wrapper-table + .wrapper-table {
+    margin-left: 8%;
 }
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
