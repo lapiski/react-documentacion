@@ -9,39 +9,59 @@ class Tarjeta extends Component {
 
     }
   }
+
+  componentDidMount(){
+    console.log("this.props.datos",this.props.datos.properties.categories)
+  }
   
   render () {
-    return (
-      <div className="wrapper-tarjetas">
 
-        {this.props.datos.map((item, index) => {
-          return (
-            <div>
-              <h4 className="mt-4 mb-3">{item.title}</h4>
-              {item.category && <h5 className="mt-4 mb-3">{item.category}</h5>}
-              {item.link && <a href={item.link}><h5>Link Teclas</h5></a>}
-              <div className="items-tarjetas mb-5" key={index}>
-                {item.properties.map((property, index) => {
-                    return (
+    if (this.props.datos.tipoCategory){
+
+      return (
+        <div className="wrapper-tarjetas">
+          <h4 id={this.props.datos.id}>{this.props.datos.title}</h4>
+          <div>{this.props.datos.properties.map((property, index) => {
+            return (
+              <div className="category" key={index}>
+
+                <h5>{property.subTitle}</h5>
+                <div className="items-tarjetas">{property.categories.map((category, index) => {
+                  return(
                       <div key={index} className="item">
-                        <a  className="link"
-                            href={property.url}
-                            target="blank">
-                            {property.title}
-                        </a>
-                        
-                        {property.subtitle && <span>{property.subtitle}</span>}
-                        <p>{property.description}</p>
+                          <a  className="link" href={category.url} target="blank"> {category.title}</a>
+                          <p>{category.description}</p>
                       </div>
-                    );
-                })}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-      
-    );
+                      )
+                  })}
+                </div>
+              </div>)
+            })}
+          </div>
+        </div> 
+      );
+
+    } else {
+
+      return (
+
+        <div className="wrapper-tarjetas">
+          <h4 id={this.props.datos.id}>{this.props.datos.title}</h4>
+          <div className="items-tarjetas" >{this.props.datos.properties.map((property, index) => {
+            return (
+              <div className="item"key={index}>
+                <a  className="link" href={property.url} target="blank">{property.title}</a>
+                <p>{property.description}</p>
+              </div>)
+            })}
+          </div>
+        </div> 
+
+      );   
+        
+    }
+   
+
   }
 }
 

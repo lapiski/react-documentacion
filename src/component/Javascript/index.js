@@ -3,9 +3,6 @@ import Sidebar from '../Sidebar/';
 import Tarjeta from '../Tarjeta/';
 import Tabla from '../Tabla/';
 import { datosJavascript } from '../../datosJavascript.json';
-import { datosArray } from '../../datosArray.json';
-import { datosEventos } from '../../datosEventos.json';
-import { datosOperadores } from '../../datosOperadores.json';
 import { Link } from 'react-router-dom';
 
 class Javascript extends Component {
@@ -14,10 +11,11 @@ class Javascript extends Component {
 
     this.state = {
       datosJavascript,
-      datosArray,
-      datosEventos,
-      datosOperadores,
     };
+  }
+
+  componentDidMount(){
+
   }
 
   render() {
@@ -30,52 +28,19 @@ class Javascript extends Component {
 
           <Link to="javascript/ficha">Ir a FICHA</Link>
 
-          <Tarjeta datos={this.state.datosArray}/>
+          <Tarjeta datos={this.state.datosJavascript.find(element => element.title === "Métodos Array")}/>
+          <Tarjeta datos={this.state.datosJavascript.find(element => element.title === "Eventos")}/>
+          <Tarjeta datos={this.state.datosJavascript.find(element => element.title === "Objeto Math")}/>
+          <Tarjeta datos={this.state.datosJavascript.find(element => element.title === "Objeto Number")}/>
+          <Tarjeta datos={this.state.datosJavascript.find(element => element.title === "DOM")}/>
+          <Tabla datos={this.state.datosJavascript.find(element => element.title === "Operadores")}/>
+          <Tarjeta datos={this.state.datosJavascript.find(element => element.title === "Tipos de datos")}/>
+          
 
-          <Tarjeta datos={this.state.datosEventos}/>
+          {/* <Tarjeta datos={this.state.datosEventos}/>
 
-          <Tarjeta datos={this.state.datosJavascript}/>
 
-          <Tabla datos={this.state.datosOperadores}/>
-
-          {/* {this.state.datosJavascript.map((item, index) => {
-            return (
-              <div key={index} className="category">
-                <h4>{item.category}</h4>
-                {item.properties.map((property, index) => {
-                  return (
-                    <div key={index} className="property">
-                      <h5>{property.title}</h5>
-                      <p>{property.description}</p>
-
-                      <div className="example">
-                        <a
-                          className="icon"
-                          href="https://www.w3schools.com/js/js_random.asp"
-                          target="blank"
-                        >
-                          Flecha
-                        </a>
-                        <h6>Example</h6>
-                        <p>
-                          {property.example} <span> {property.back}</span>
-                        </p>
-
-                        {property.example2 ? (
-                          <div>
-                            <p>{property.example2} <span> {property.back2}</span></p>
-                          </div>
-                        ) : (
-                          <div></div>
-                        )}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            );
-          })} */}
-
+          <Tabla datos={this.state.datosOperadores}/> */}
 
         </div>
       </div>

@@ -1,4 +1,5 @@
 .wrapper-tarjetas{
+    margin-bottom: 40px;
     h5 {
         border: 1px solid;
         display: inline-block;
@@ -9,6 +10,9 @@
         margin: 0px 0px 15px 0px !important;
         font-weight: normal;
         font-size: 15px;
+    }
+    .category {
+        margin-bottom: 25px;
     }
     .items-tarjetas{
         display: flex;
@@ -25,7 +29,7 @@
                 color: #6750d3;
             }
             p {
-                margin-bottom: 0px;;
+                margin-bottom: 0px;
             }
             span {
                 display: block;

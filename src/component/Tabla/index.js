@@ -14,20 +14,17 @@ class Tabla extends Component {
   render () {
     return (
       <div className="wrapper-tabla">
-
-        {this.props.datos.map((item, index) => {
+        <h4>{this.props.datos.title}</h4>
+        {this.props.datos.properties.map((property, index) => {
           return (
             <div>
-              {item.title && <h4 className="mt-4 mb-3">{item.title}</h4>}
               <div className="item">
-                <h5>{item.category}</h5>
-             
-            
-                {item.properties.map((property, index) => {
+                <h5>{property.title}</h5>
+                {property.categories.map((category, index) => {
                     return (
                       <div className="line" key={index}>
-                        <span className="name">{property.name}</span>
-                        <span>{property.description}</span>
+                        <span className="name">{category.name}</span>
+                        <span>{category.description}</span>
                       </div>
                     );
                 })}

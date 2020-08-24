@@ -1,7 +1,194 @@
 {
     "datosJavascript": [
         {
+            
+            "title": "Métodos Array",
+            "id": "block-1",
+            "properties": [
+                {
+                    "title": "concat()",
+                    "description": "Concatena un array con otro",
+                    "url": "https://www.w3schools.com/jsref/jsref_concat_array.asp"
+                },
+                {
+                    "title": "filter()",
+                    "description": "Filtra el array con la condición que le indiquemos",
+                    "url": "https://www.w3schools.com/jsref/jsref_filter.asp"
+                },
+                {
+                    "title": "map()",
+                    "description": "Devuelve el mismo array aplicándole la condición que queramos",
+                    "url": "https://www.w3schools.com/jsref/jsref_map.asp"
+                },
+                {
+                    "title": "push()",
+                    "description": "Añade al final",
+                    "url": "https://www.w3schools.com/jsref/jsref_push.asp"
+                },
+                {
+                    "title": "unshift()",
+                    "description": "Añade al principio",
+                    "url": "https://www.w3schools.com/jsref/jsref_unshift.asp"
+                },
+                {
+                    "title": "shift()",
+                    "description": "Elimina el primero",
+                    "url": "https://www.w3schools.com/jsref/jsref_shift.asp"
+                },
+                {
+                    "title": "pop()",
+                    "description": "Elimina el último",
+                    "url": "https://www.w3schools.com/jsref/jsref_pop.asp"
+                },
+                {
+                    "title": "splice()",
+                    "subtitle": "splice(index, count_to_remove, addElement1, addElement2, ...)",
+                    "description": "Eliminar o añade eligiendo lugar y cantidad el array existente",
+                    "url": "https://www.w3schools.com/jsref/jsref_splice.asp"
+                },
+                {
+                    "title": "slice()",
+                    "subtitle": "slice(start_index, upto_index)",
+                    "description": "Copia un número dado de elementos a una nueva matriz ",
+                    "url": "https://www.w3schools.com/jsref/jsref_slice_array.asp"
+                },
+                {
+                    "title": "join()",
+                    "description": "Copia un número dado de elementos a una nueva matriz ",
+                    "url": "https://www.w3schools.com/jsref/jsref_join.asp"
+                },
+                {
+                    "title": "sort()",
+                    "description": "Ordena los elementos alfabéticamente",
+                    "url": "https://www.w3schools.com/jsref/jsref_sort.asp"
+                }
+            ]
+        },
+        {
+            "title": "Eventos",
+            "id": "block-2",
+            "tipoCategory": "category",
+            "properties":[
+                {
+                    "subTitle": "De ratón",
+                    "categories":[
+                        {
+                            "title": "onclick()",
+                            "description": "Click sobre un elemento",
+                            "url": "https://www.w3schools.com/jsref/event_onclick.asp"
+                        },
+                        {
+                            "title": "onmousedown()",
+                            "description": "Se pulsa un botón del ratón sobre un elemento",
+                            "url": "https://www.w3schools.com/jsref/event_onmousedown.asp"
+                        },
+                        {
+                            "title": "onmouseenter()",
+                            "description": "El puntero del ratón entra en el área de un elemento",
+                            "url": "https://www.w3schools.com/jsref/event_onmouseenter.asp"
+                        },
+                        {
+                            "title": "onmouseleave()",
+                            "description": "El puntero del ratón sale del área de un elemento",
+                            "url": "https://www.w3schools.com/jsref/event_onmouseleave.asp"
+                        },
+                        {
+                            "title": "onmousemove()",
+                            "description": "El puntero del ratón se está moviendo sobre el área de un elemento",
+                            "url": "https://www.w3schools.com/jsref/event_onmousemove.asp"
+                        },
+                        {
+                            "title": "onmouseout()",
+                            "description": "El puntero del ratón sale fuera del área del elemento o fuera de uno de sus hijos",
+                            "url": "https://www.w3schools.com/jsref/event_onmouseout.asp"
+                        },
+                        {
+                            "title": "onmouseup()",
+                            "description": "Un botón del ratón se libera estando sobre un elemento",
+                            "url": "https://www.w3schools.com/jsref/event_onmouseup.asp"
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "De teclado",
+                    "categories":[
+                        {
+                            "title": "onkeydown()",
+                            "description": "El usuario tiene pulsada una tecla (para elementos de formulario y body)",
+                            "url": "https://www.w3schools.com/jsref/event_onkeydown.asp"
+                        },
+                        {
+                            "title": "onkeypress()",
+                            "description": "El usuario pulsa una tecla (momento justo en que la pulsa) (para elementos de formulario y body)",
+                            "url": "https://www.w3schools.com/jsref/event_onkeypress.asp"
+                        },
+                        {
+                            "title": "onkeyup()",
+                            "description": "El usuario libera una tecla que tenía pulsada (para elementos de formulario y body)",
+                            "url": "https://www.w3schools.com/jsref/event_onkeyup.asp"
+                        }
+                    ]
+                },
+                {
+                    "subTitle": "De formulario",
+                    "categories":[
+                        {
+                            "title": "onfocus()",
+                            "description": "Un elemento del formulario toma el foco",
+                            "url": "https://www.w3schools.com/jsref/event_onkeydown.asp"
+                        },
+                        {
+                            "title": "onblur()",
+                            "description": "Un elemento del formulario pierde el foco",
+                            "url": "https://www.w3schools.com/jsref/event_onkeypress.asp"
+                        },
+                        {
+                            "title": "onchange()",
+                            "description": "Un elemento del formulario cambia",
+                            "url": "https://www.w3schools.com/jsref/event_onkeyup.asp"
+                        },
+                        {
+                            "title": "onselect()",
+                            "description": "El usuario selecciona el texto de un elemento input o textarea",
+                            "url": "https://www.w3schools.com/jsref/event_onkeyup.asp"
+                        },
+                        {
+                            "title": "onsubmit()",
+                            "description": "Se pulsa el botón de envío del formulario (antes del envío)",
+                            "url": "https://www.w3schools.com/jsref/event_onkeyup.asp"
+                        },
+                        {
+                            "title": "onreset()",
+                            "description": "Se pulsa el botón reset del formulario",
+                            "url": "https://www.w3schools.com/jsref/event_onkeyup.asp"
+                        }
+                    ]
+                }, 
+                {
+                    "subTitle": "De ventana",
+                    "categories":[
+                        {
+                            "title": "onload()",
+                            "description": "Se ha completado la carga de la ventana",
+                            "url": "https://www.w3schools.com/jsref/event_onload.asp"
+                        },
+                        {
+                            "title": "onunload()",
+                            "description": "El usuario ha cerrado la ventana",
+                            "url": "https://www.w3schools.com/jsref/event_onunload.asp"
+                        },
+                        {
+                            "title": "onresize()",
+                            "description": "El usuario ha cambiado el tamaño de la ventana",
+                            "url": "https://www.w3schools.com/jsref/event_onresize.asp"
+                        }
+                    ]
+                }               
+            ]
+        },
+        {
             "title": "Objeto Math",
+            "id": "block-3",
             "properties": [
                 {
                     "simpleTitle": "floor()",
@@ -33,6 +220,7 @@
         },
         {
             "title": "Objeto Number",
+            "id": "block-4",
             "properties": [
                 {
                     "simpleTitle": "parseFloat()",
@@ -62,6 +250,7 @@
         },
         {
             "title": "DOM",
+            "id": "block-5",
             "properties": [
                 {
                     "simpleTitle": "getElementsByName()",
@@ -112,94 +301,126 @@
         },
         {
             "title": "Operadores",
-            "category": "Aritméticos",
-            "properties": [
+            "id": "block-6",
+            "properties":[
                 {
-                    "simpleTitle": "Aritméticos",
                     "title": "Aritméticos",
-                    "example": "Math.floor(1.6);",
-                    "back":"devuelve 1",
-                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
-                }
-            ]  
-        },
-        {
-            "category": "Comparación",
-            "properties": [
+                    "categories":[
+                        {
+                            "name": "+",
+                            "description": "Sumar"
+                        },
+                        {
+                            "name": "-",
+                            "description": "Restar"
+                        },
+                        {
+                            "name": "*",
+                            "description": "Multiplicar"
+                        },
+                        {
+                            "name": "/",
+                            "description": "Dividir"
+                        },
+                        {
+                            "name": "++",
+                            "description": "Aumento"
+                        },
+                        {
+                            "name": "--",
+                            "description": "Incremento"
+                        }
+                    ]
+                },
                 {
-                    "simpleTitle": "Aritméticos",
-                    "title": "Aritméticos",
-                    "example": "Math.floor(1.6);",
-                    "back":"devuelve 1",
-                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
-                }
-            ]  
-        },
-        {
-            "category": "Logicos",
-            "properties": [
+                    "title": "Comparación",
+                    "categories":[
+                        {
+                            "name": "==",
+                            "description": "Igual"
+                        },
+                        {
+                            "name": "===",
+                            "description": "Igual tipo y valor"
+                        },
+                        {
+                            "name": "!=",
+                            "description": "Diferente"
+                        },
+                        {
+                            "name": "!==",
+                            "description": "Diferente en tipo y valor"
+                        },
+                        {
+                            "name": ">",
+                            "description": "Mayor que"
+                        },
+                        {
+                            "name": "<",
+                            "description": "Menor que"
+                        },
+                        {
+                            "name": ">=",
+                            "description": "Mayor igual que"
+                        },
+                        {
+                            "name": "<=",
+                            "description": "Menor igual que"
+                        } 
+                    ]
+                },
                 {
-                    "simpleTitle": "Aritméticos",
-                    "title": "Aritméticos",
-                    "example": "Math.floor(1.6);",
-                    "back":"devuelve 1",
-                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
-                }
-            ]  
-        },
-        {
-            "category": "Asociativos",
-            "properties": [
+                    "title": "Lógicos",
+                    "categories":[
+                        {
+                            "name": "+",
+                            "description": "Sumar"
+                        }
+                    ]
+                },
                 {
-                    "simpleTitle": "Aritméticos",
-                    "title": "Aritméticos",
-                    "example": "Math.floor(1.6);",
-                    "back":"devuelve 1",
-                    "url": "https://www.w3schools.com/jsref/jsref_floor.asp"
-                }
-            ]  
+                    "title": "Asociativos",
+                    "categories":[
+                        {
+                            "name": "+",
+                            "description": "Sumar"
+                        }
+                    ]
+                }             
+            ]
         },
         {
             "title": "Tipos de datos",
+            "id": "block-7",
             "properties": [
                 {
-                    "simpleTitle": "String",
                     "title": "String",
                     "description": "var string = 'hola mundo';"
                 },
                 {
-                    "simpleTitle": "Number",
                     "title": "Number",
-                    "category": "javascript",
                     "description": "var number = 7;"
                 },
                 {
-                    "simpleTitle": "Decimal",
                     "title": "Decimal",
                     "description": "var decimal = 7.5;"
                 },
                 {
-                    "simpleTitle": "Bolean",
                     "title": "Bolean",
                     "description": "var bolean = true;",
                     "back":"devuelve true | false"
                 },
                 {
-                    "simpleTitle": "Undefined",
                     "title": "Undefined",
                     "description": "Una variable a la que no se le ha asignado ningún valor tiene el valor undefined"
                 },
                 {
-                    "simpleTitle": "Symbol",
                     "title": "Symbol",
-                    "description": "Un valor en memoria al que podemos acceder por un identificador",
-                    "example": ""
+                    "description": "Un valor en memoria al que podemos acceder por un identificador"
                 },
                 {
-                    "simpleTitle": "Object",
                     "title": "Object",
-                    "description": "Un valor en memoria al que podemos acceder por un identificador",
-                    "example": ""
+                    "description": "Un valor en memoria al que podemos acceder por un identificador"
                 }
             ]  
         }
